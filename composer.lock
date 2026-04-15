@@ -1698,16 +1698,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "21dc724a0583619cd1652f673303492272778051"
+                "reference": "7d0ed42f28e42d61352a7a79de682e5e67fec884"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/21dc724a0583619cd1652f673303492272778051",
-                "reference": "21dc724a0583619cd1652f673303492272778051",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/7d0ed42f28e42d61352a7a79de682e5e67fec884",
+                "reference": "7d0ed42f28e42d61352a7a79de682e5e67fec884",
                 "shasum": ""
             },
             "require": {
@@ -1723,6 +1723,7 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "http-interop/http-factory-tests": "0.9.0",
+                "jshttp/mime-db": "1.54.0.1",
                 "phpunit/phpunit": "^8.5.44 || ^9.6.25"
             },
             "suggest": {
@@ -1794,7 +1795,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.8.0"
+                "source": "https://github.com/guzzle/psr7/tree/2.9.0"
             },
             "funding": [
                 {
@@ -1810,7 +1811,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-23T21:21:41+00:00"
+            "time": "2026-03-10T16:41:02+00:00"
         },
         {
             "name": "illuminate/collections",
@@ -2736,16 +2737,16 @@
         },
         {
             "name": "mailchimp/transactional",
-            "version": "1.0.59",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mailchimp/mailchimp-transactional-php.git",
-                "reference": "1783927027820dc1c624fd04abf5012a57f96feb"
+                "reference": "720f4a62d86d396b994cfb8beccbcb940d0ba0ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mailchimp/mailchimp-transactional-php/zipball/1783927027820dc1c624fd04abf5012a57f96feb",
-                "reference": "1783927027820dc1c624fd04abf5012a57f96feb",
+                "url": "https://api.github.com/repos/mailchimp/mailchimp-transactional-php/zipball/720f4a62d86d396b994cfb8beccbcb940d0ba0ad",
+                "reference": "720f4a62d86d396b994cfb8beccbcb940d0ba0ad",
                 "shasum": ""
             },
             "require": {
@@ -2757,7 +2758,7 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "~2.12",
-                "phpunit/phpunit": "^7",
+                "phpunit/phpunit": "^8",
                 "squizlabs/php_codesniffer": "~2.6"
             },
             "type": "library",
@@ -2784,9 +2785,9 @@
                 "swagger"
             ],
             "support": {
-                "source": "https://github.com/mailchimp/mailchimp-transactional-php/tree/v1.0.59"
+                "source": "https://github.com/mailchimp/mailchimp-transactional-php/tree/v1.4.0"
             },
-            "time": "2024-02-10T01:12:26+00:00"
+            "time": "2026-03-24T16:07:51+00:00"
         },
         {
             "name": "mailgun/mailgun-php",
@@ -14238,5 +14239,5 @@
         "ext-zip": "*"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
